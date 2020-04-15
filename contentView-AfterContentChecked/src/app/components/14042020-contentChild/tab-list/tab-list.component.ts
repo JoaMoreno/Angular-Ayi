@@ -9,7 +9,11 @@ import { TabComponent } from '../tab/tab.component';
 export class TabListComponent implements AfterContentInit {
   
   @ContentChildren(TabComponent) tabList: QueryList<TabComponent>;
+  ngDoCheck(){
+    console.log("ngDoCheck");
+  }
   ngAfterContentInit() {
-    this.tabList.toArray()[0].printTitle();
+    console.log("ngAfterContentInit");
+    console.log(this.tabList);
   }
 }
