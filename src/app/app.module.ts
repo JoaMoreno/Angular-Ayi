@@ -8,6 +8,8 @@ import { TabListComponent } from './components/14042020-contentChild/tab-list/ta
 import { ViewContentChildComponent } from './components/14042020-contentChild/view-content-child/view-content-child.component';
 import { ViewViewChildComponent } from './components/15042020-viewChild/view-view-child/view-view-child.component';
 import { ChildComponent } from './components/15042020-viewChild/child/child.component';
+import { PipesComponent } from './components/16042020-pipes/pipes.component';
+import { LetrasPipe } from './components/16042020-pipes/letras.pipe';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { ChildComponent } from './components/15042020-viewChild/child/child.comp
     ViewContentChildComponent,
     ViewViewChildComponent,
     ChildComponent,
+    PipesComponent,
+    LetrasPipe,
   ],
   imports: [
     BrowserModule,

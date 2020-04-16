@@ -1,0 +1,17 @@
+<h4>Originals</h4>
+<p>Date: "{{fechaActual}}"</p>
+<p>String: "{{variableString}}"</p>
+<p>Number: "{{variableNumber}}"</p>
+<p>Array: "{{myArray}}"</p>
+<p>Json: "{{myJson}}"</p>
+<h4>Pipes</h4>
+<p>Pipe date:'dd/mm/yyyy':{{ fechaActual | date:'dd/mm/yyyy' }}</p>
+<p>Pipe uppercase: {{ variableString | uppercase}}</p>
+<p>Pipe lowercase: {{ variableString | lowercase}}</p>
+<p>Pipe currency: {{ variableNumber | currency:'$'}}</p>
+<p>Pipe slice: {{ myArray | slice:0:2}}</p>
+<p>Pipe json: "{{myJson | json}}"</p>
+<h4>Pipe Personalizado</h4>
+<p>Pipe Personalizado Input= 1: {{ 1 | letras}}</p>
+<p>Pipe Personalizado Input= 1: {{ 1 | letras:"ingles"}}</p>
+<p>Pipe Personalizado Input= 1: {{ 1 | letras:"portugues"}}</p>
