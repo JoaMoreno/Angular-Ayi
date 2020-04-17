@@ -10,6 +10,8 @@ import { ViewViewChildComponent } from './components/15042020-viewChild/view-vie
 import { ChildComponent } from './components/15042020-viewChild/child/child.component';
 import { PipesComponent } from './components/16042020-pipes/pipes.component';
 import { LetrasPipe } from './components/16042020-pipes/letras.pipe';
+import { Component1Component } from './components/17042020-localStorage/component1/component1.component';
+import { Component2Component } from './components/17042020-localStorage/component2/component2.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { LetrasPipe } from './components/16042020-pipes/letras.pipe';
     ChildComponent,
     PipesComponent,
     LetrasPipe,
+    Component1Component,
+    Component2Component,
   ],
   imports: [
     BrowserModule,
