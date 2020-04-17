@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class LetrasPipe implements PipeTransform {
 
-  transform(value: number, args: string): unknown {
+  transform(value: number, args?: string): unknown {
     if (args != null) {
       if (args=='ingles')
         switch (value) {
