@@ -11,7 +11,6 @@ const routes: Routes = [
   {path: "viewChild", component: ViewViewChildComponent},
   {path: "pipes", component: PipesComponent},
   {path: "local-storage", component: Component1Component},
-
 ];
 
 @NgModule({
