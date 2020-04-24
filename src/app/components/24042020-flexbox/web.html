@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Tailwind CSS CDN -->
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <title>Joaquin Moreno</title>
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/ed8d5b1761.js" crossorigin="anonymous"></script>
+    <script src="./script/svg-inject.min.js"></script>
+</head>
+
+<body>
+
+    <!-- ===== LOADER ===== -->
+    <div id="loader-container">
+        <div id="loader"></div>
+    </div>
+
+    <div class="w-full">
+        <div class="flex justify-around items-center my-8 text-gray-800">
+            <div class="flex items-center h-8">
+                <img class="h-full mx-4" src="./img/svg/mjcolor-simple.svg" style="max-width: 50px;" alt="">
+                <p class="font-semibold py-2 text-center px-8">Joaquin Moreno.</p>
+            </div>
+            <div class="flex items-center mx-10">
+                <i class="fab fa-github"></i>
+                <p class="mx-2">Proyectos</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative w-full h-64 bg-blue-400 text-gray-100">
+        <div class="slideInDown animated h-full flex justify-center items-center">
+            <div class="md:flex items-center">
+                <h1 class="text-6xl fontbold">HOLA!</h1>
+                <div class="md:mx-8 -mb-2 text-xl font-semibold">
+                    <p>Soy desarrollador web.</p>
+                    <p>Javascript Full-Stack { MERN }</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="w-1/2 bounceInLeft animated">
+            <div class="texto-r">
+                <h1 id="t-animado" onclick="myFunction()" class="fontbold py-6 texto-animado paused-a"></h1>
+            </div>
+            <p class="text-center text-gray-300 -mt-4 pb-2 select-none">Click to Pause</p>
+        </div>
+        <div class="w-1/2 bg-blue-600 gif-img bounceInRight animated">
+        </div>
+    </div>
+
+    <div class="bg-blue-500 overflow-hidden">
+        <div class="slideInRight animated delay-1s w-full md:flex sm:block justify-around p-10 bg-teal-400">
+            <div class="w-1/3 mx-5 sm:mx-auto m-3 bg-color-1 flex justify-center hoverbg max-h">
+                <img class="w-full imgsvg pulses" src="./web/web-p(1).svg" alt="">
+            </div>
+            <div class="w-1/3 mx-5 sm:mx-auto md:m-3 bg-color-2 flex justify-center hoverbg max-h">
+                <img class="w-full" src="./web/web-p(2).svg" alt="">
+            </div>
+            <div class="w-1/3 mx-5 sm:mx-auto m-3 bg-color-3 flex justify-center hoverbg max-h">
+                    <img class="w-full" src="./web/web-p(3).svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="w-full h-48 bg-yellow-500 gif2 text-gray-100">
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
